@@ -54,6 +54,7 @@ input:checked + label {
     bottom: 0;
     height: 50px;
     line-height: 50px;
+    font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     text-align: center;
     width: 100%;
