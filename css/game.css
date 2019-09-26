@@ -49,6 +49,30 @@ input:checked + label {
     cursor: url(../img/aim2.png), text;
 }
 
+.duck:nth-last-of-type(2) {
+    animation: duckfly 20s linear 2s infinite;
+    animation-direction: alternate;
+    cursor: url(../img/aim2.png), text;
+}
+
+.duck:nth-last-of-type(3) {
+    animation: duckfly 25s linear 3s infinite;
+    animation-direction: alternate;
+    cursor: url(../img/aim2.png), text;
+}
+
+.duck:nth-last-of-type(4) {
+    animation: duckfly 30s linear 4s infinite;
+    animation-direction: alternate;
+    cursor: url(../img/aim2.png), text;
+}
+
+.duck:nth-last-of-type(5) {
+    animation: duckfly 50s linear 5s infinite;
+    animation-direction: alternate;
+    cursor: url(../img/aim2.png), text;
+}
+
 .score {
     position: absolute;
     bottom: 0;
@@ -63,7 +87,7 @@ input:checked + label {
     background-color: black;
 }
 
-score:after {
+.score:after {
     content: counter(score);
     display: inline-block;
 }
