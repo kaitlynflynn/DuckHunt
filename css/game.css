@@ -56,10 +56,11 @@ input:checked + label {
     line-height: 50px;
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
+    color: white;
     text-align: center;
     width: 100%;
     z-index: 2;
-    background-color: #dadada;
+    background-color: black;
 }
 
 score:after {
